@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/2026/static/css/main.508f55f9.css",
-    "main.js": "/2026/static/js/main.7bae87ed.js",
+    "main.js": "/2026/static/js/main.20df156f.js",
     "static/js/787.2b6f9e78.chunk.js": "/2026/static/js/787.2b6f9e78.chunk.js",
-    "static/media/lfs_frog_toad.jpg": "/2026/static/media/lfs_frog_toad.e301f82ebc1257bdc2fb.jpg",
+    "static/media/lfs_frog_toad.jpg": "/2026/static/media/lfs_frog_toad.5f70537d79cd6611292c.jpg",
     "static/media/iStock-1249040981.jpg": "/2026/static/media/iStock-1249040981.51d90ea4a80d2d1b09d3.jpg",
     "static/media/BranchD.svg": "/2026/static/media/BranchD.383126e92b5be22f06a4.svg",
     "static/media/CS1710_logo2.svg": "/2026/static/media/CS1710_logo2.e7c9e4a6d27da9b05c56dd1f565e2475.svg",
@@ -11,11 +11,11 @@
     "static/media/new-layered-waves-haikei.svg": "/2026/static/media/new-layered-waves-haikei.6650d32d6fa4a11a57ae.svg",
     "index.html": "/2026/index.html",
     "main.508f55f9.css.map": "/2026/static/css/main.508f55f9.css.map",
-    "main.7bae87ed.js.map": "/2026/static/js/main.7bae87ed.js.map",
+    "main.20df156f.js.map": "/2026/static/js/main.20df156f.js.map",
     "787.2b6f9e78.chunk.js.map": "/2026/static/js/787.2b6f9e78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.508f55f9.css",
-    "static/js/main.7bae87ed.js"
+    "static/js/main.20df156f.js"
   ]
 }
