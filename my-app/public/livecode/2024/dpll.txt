@@ -1,0 +1,52 @@
+
+## Remember that this is pseudocode! 
+
+## Version without unit propagation
+## Helpers:
+##   variables_in: returns set of variables in the fmla
+##   simplify: simplifies (e.g., "true and false" -> "false")
+##   substitute: replaces a variable with a boolean value
+def solve(formula: BooleanFormula) -> bool:
+    remaining = variables_in(formula)
+    if remaining.isEmpty(): 
+        return simplify(formula)
+    else:
+        branch = remaining[0]
+        true_result = solve(substitute(formula, branch, True))
+        if true_result: 
+            return True
+        else: 
+            false_result = solve(substitute(formula, branch, False))
+            return false_result    
+
+## Version with unit propagation
+## Recall that:
+##    a "literal" is either a variable or its negation 
+##    a "clause" is an "or" of literals
+##    a CNF is an "and" of clauses (see the 4queens.cnf file)
+def solve(formula: Set[Clause]) -> bool:
+    old_formula = formula
+    formula = propagate_all_units(formula)
+    while(old_formula <> formula) 
+        formula = propagate_all_units(formula)
+    
+    if {} in formula: 
+        return False # we derived empty clause
+    elif formula == units_in(formula):
+        return True # no contradiction
+    else:
+        branch = remaining[0]
+        true_result = solve(formula + {branch}))
+        if true_result: 
+            return True
+        else: 
+            false_result = solve(formula + {!branch})
+            return false_result    
+
+    
+
+
+
+
+def solve(formula: Set[Clause], assumptions: Set[Literal]) -> bool:
+    ??? what can we keep?
