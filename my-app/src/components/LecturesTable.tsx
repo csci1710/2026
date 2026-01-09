@@ -23,8 +23,8 @@ export default function LecturesTable(props: LectureTableProps) {
           The listed lecture schedule is prospective and subject to change. All
           lecture capture videos can be found on our 2026 Canvas{" "}
           <a
-            href=""
-            // "https://canvas.brown.edu/courses/1097832/external_tools/33943"
+            href="https://canvas.brown.edu/courses/1101694/external_tools/33943"
+            target="_blank"
           >
             media library page
           </a>
@@ -32,8 +32,10 @@ export default function LecturesTable(props: LectureTableProps) {
         </p>
         <p>
           Notes can be found on our{" "}
-          <a href="https://forge-fm.github.io/book/">Forge book deployment</a>,
-          even if the specific chapters are not yet linked below.
+          <a href="https://forge-fm.github.io/book/" target="_blank">
+            Forge book deployment
+          </a>
+          , even if the specific chapters are not yet linked below.
         </p>
         <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
           <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
@@ -205,22 +207,34 @@ function LectureDay(props: { lecture: Lecture }) {
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-1">
         {props.lecture.notesLink && (
-          <a href={props.lecture.notesLink} className={linkClassName}>
+          <a
+            href={props.lecture.notesLink}
+            target="_blank"
+            className={linkClassName}
+          >
             Notes
           </a>
         )}
         {props.lecture.recordingLink && (
-          <a href={props.lecture.recordingLink} className={linkClassName}>
+          <a
+            href={props.lecture.recordingLink}
+            target="_blank"
+            className={linkClassName}
+          >
             Recording
           </a>
         )}
         {props.lecture.liveCodeLink && (
-          <a href={props.lecture.liveCodeLink} className={linkClassName}>
+          <a
+            href={props.lecture.liveCodeLink}
+            target="_blank"
+            className={linkClassName}
+          >
             Livecode
           </a>
         )}
         {props.lecture.otherLinks?.map((otherLink) => (
-          <a href={otherLink.link} className={linkClassName}>
+          <a href={otherLink.link} target="_blank" className={linkClassName}>
             {otherLink.name}
           </a>
         ))}
@@ -264,7 +278,11 @@ function LectureDayOld(props: { lecture: Lecture }) {
           </a>
         )}
         {props.lecture.otherLinks?.map((otherLink) => (
-          <a href={otherLink.link} className="text-primary-500 underline">
+          <a
+            href={otherLink.link}
+            target="_blank"
+            className="text-primary-500 underline"
+          >
             {otherLink.name}
           </a>
         ))}

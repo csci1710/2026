@@ -572,8 +572,7 @@ export const policies: Resource[] = [
 export const importantLinks: Resource[] = [
   {
     name: "EdStem",
-    href: "",
-    // "https://edstem.org/us/courses/73930/discussion",
+    href: "https://edstem.org/us/join/V9WucK",
   },
   { name: "Hours", href: "https://hours.cs.brown.edu/login" },
   {
@@ -583,6 +582,10 @@ export const importantLinks: Resource[] = [
   {
     name: "Brown CS Health and Wellness",
     href: "https://cs.brown.edu/about/diversity/resources/",
+  },
+  {
+    name: "Ever True Resources",
+    href: "https://evertrue.brown.edu/resources/",
   },
 ];
 

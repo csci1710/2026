@@ -90,11 +90,13 @@ function App() {
               alt="CS1710 Logo"
               className="max-auto h-[12rem]"
             />
-            <img
-              src={LFS_FROG}
-              alt="Cute lil froggy"
-              className="max-auto h-[20rem]"
-            />
+            <a href="https://forge-fm.github.io/book/" target="_blank">
+              <img
+                src={LFS_FROG}
+                alt="Cute lil froggy"
+                className="max-auto h-[20rem]"
+              />
+            </a>
           </section>
 
           <br />
@@ -177,6 +179,7 @@ function App() {
                 <a
                   className="text-primary-500 underline font-bold"
                   href={FAQLink}
+                  target="_blank"
                   style={{ color: "#2c7d39" }}
                 >
                   FAQ
@@ -241,11 +244,7 @@ function App() {
           >
             <h2 className="text-6xl font-title font-bold">Lectures</h2>
             <div className="p-4" />
-            {lectures.length === 0 && (
-              <p className="text-neutral-500">
-                Nothing here yet! See you in class :)
-              </p>
-            )}
+
             <LecturesTable lectures={lectures} />
           </section>
 
@@ -284,7 +283,11 @@ function App() {
           >
             <h2 className="text-6xl font-title font-bold">Calendar</h2>
             <div className="p-4" />
-            <a href={calendarLink} className="font-bold underline text-2xl">
+            <a
+              href={calendarLink}
+              target="_blank"
+              className="font-bold underline text-2xl"
+            >
               Calendar Link (Add to your GCal)
             </a>
             <div className="p-4" />
@@ -324,11 +327,11 @@ function App() {
         </body>
         <p className="text-center p-16">
           © Spring 2026 cs1710 TA Staff |{" "}
-          <a className="underline" href="http://cs.brown.edu/">
+          <a className="underline" target="_blank" href="http://cs.brown.edu/">
             Computer Science Department
           </a>{" "}
           |{" "}
-          <a className="underline" href="http://brown.edu/">
+          <a className="underline" target="_blank" href="http://brown.edu/">
             Brown University
           </a>
         </p>
