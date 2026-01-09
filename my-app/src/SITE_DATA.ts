@@ -408,7 +408,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "PBT",
     dateRange: "Jan 23 → Jan 29, 2026",
-    href: "https://hackmd.io/cfWr0Y7HR1q1a_1tgSLC_A",
+    href: "https://hackmd.io/@csci1710/rkWPh6tN-l",
     autoReleaseDate: "Jan 23, 2026 11:00:00 EST",
   },
   // {
