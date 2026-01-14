@@ -409,19 +409,19 @@ export const homeworkAssignments: Assignment[] = [
     name: "PBT",
     dateRange: "Jan 23 → Jan 29, 2026",
     href: "https://hackmd.io/@csci1710/rkWPh6tN-l",
-    autoReleaseDate: "Jan 23, 2026 11:00:00 EST",
+    autoReleaseDate: "Jan 23, 2026 15:00:00 EST",
   },
   // {
   //   name: "Physical Keys",
   //   dateRange: "Jan 30 → Feb 5, 2026",
   //   href: "https://hackmd.io/@csci1710/ByLnzQstT",
-  //   autoReleaseDate: "Jan 30, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Jan 30, 2026 15:00:00 EST",
   // },
   // {
   //   name: "Memory Management",
   //   dateRange: "Feb 6 → Feb 12, 2026",
   //   href: "https://hackmd.io/@csci1710/S1xVNmiK6",
-  //   autoReleaseDate: "Feb 6, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Feb 6, 2026 15:00:00 EST",
   // },
   // {
   //   name: "Hotel Locking (Lab Reflection)",
@@ -433,19 +433,19 @@ export const homeworkAssignments: Assignment[] = [
   //   name: "Temporal Modeling",
   //   dateRange: "Mar 07 → Mar 13, 2026",
   //   href: "https://hackmd.io/@csci1710/HJk8E7jFa",
-  //   autoReleaseDate: "Mar 07, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Mar 07, 2026 15:00:00 EST",
   // },
   // {
   //   name: "Elevator Critique",
   //   dateRange: "Mar 14 → Mar 20, 2026",
   //   href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
-  //   autoReleaseDate: "Mar 14, 2026 11:00:00 EDT",
+  //   autoReleaseDate: "Mar 14, 2026 15:00:00 EDT",
   // },
   // {
   //   name: "SAT 1",
   //   dateRange: "Apr 4 → Apr 10, 2026",
   //   href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
-  //   autoReleaseDate: "Apr 4, 2026 11:00:00 EDT",
+  //   autoReleaseDate: "Apr 4, 2026 15:00:00 EDT",
   // },
   // {
   //   name: "SAT 2",
@@ -457,7 +457,13 @@ export const homeworkAssignments: Assignment[] = [
   //   name: "SMT",
   //   dateRange: "Apr 18 → Apr 24, 2026",
   //   href: "https://hackmd.io/@csci1710/rkzzBmoYa",
-  //   autoReleaseDate: "Apr 18, 2026 11:00:00 EDT",
+  //   autoReleaseDate: "Apr 9, 2026 15:00:00 EDT",
+  // },
+  // {
+  //   name: "SMT2",
+  //   dateRange: "Apr 18 → Apr 24, 2026",
+  //   href: "https://hackmd.io/@csci1710/HyCHj6CEZx",
+  //   autoReleaseDate: "Apr 16, 2026 15:00:00 EDT",
   // },
   // {
   //   // Rickroll ;)
@@ -534,19 +540,19 @@ export const projectAssignments: Assignment[] = [
   //   name: "Curiosity Modeling",
   //   dateRange: "Feb 14 → Feb 27, 2026",
   //   href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-  //   autoReleaseDate: "Feb 14, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Feb 14, 2026 15:00:00 EST",
   // },
   // {
   //   name: "Final Project (Proposal)",
   //   dateRange: "Apr 03, 2026",
   //   href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-  //   autoReleaseDate: "Mar 20, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Mar 20, 2026 15:00:00 EST",
   // },
   // {
   //   name: "Final Project",
   //   dateRange: "Apr 12 → May 08, 2026",
   //   href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-  //   autoReleaseDate: "Apr 12, 2026 11:00:00 EST",
+  //   autoReleaseDate: "Apr 12, 2026 15:00:00 EST",
   // },
 ];
 
