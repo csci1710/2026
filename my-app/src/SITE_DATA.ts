@@ -449,7 +449,7 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "SMT 2",
-    dateRange: "Apr 10 → Apr 17, 2026",
+    dateRange: "Apr 10 → Apr 16, 2026",
     href: "https://hackmd.io/@csci1710/HyCHj6CEZx",
     autoReleaseDate: "Apr 10, 2026 15:00:00 EDT",
   },
