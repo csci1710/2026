@@ -411,60 +411,48 @@ export const homeworkAssignments: Assignment[] = [
     href: "https://hackmd.io/@csci1710/rkWPh6tN-l",
     autoReleaseDate: "Jan 23, 2026 15:00:00 EST",
   },
-  // {
-  //   name: "Physical Keys",
-  //   dateRange: "Jan 30 → Feb 5, 2026",
-  //   href: "https://hackmd.io/@csci1710/ByLnzQstT",
-  //   autoReleaseDate: "Jan 30, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Memory Management",
-  //   dateRange: "Feb 6 → Feb 12, 2026",
-  //   href: "https://hackmd.io/@csci1710/S1xVNmiK6",
-  //   autoReleaseDate: "Feb 6, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Hotel Locking (Lab Reflection)",
-  //   dateRange: "Mar 05 → Mar 07, 2026",
-  //   href: "https://hackmd.io/@csci1710/B1UdLQjKp",
-  //   autoReleaseDate: "Mar 05, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Temporal Modeling",
-  //   dateRange: "Mar 07 → Mar 13, 2026",
-  //   href: "https://hackmd.io/@csci1710/HJk8E7jFa",
-  //   autoReleaseDate: "Mar 07, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Elevator Critique",
-  //   dateRange: "Mar 14 → Mar 20, 2026",
-  //   href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
-  //   autoReleaseDate: "Mar 14, 2026 15:00:00 EDT",
-  // },
-  // {
-  //   name: "SAT 1",
-  //   dateRange: "Apr 4 → Apr 10, 2026",
-  //   href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
-  //   autoReleaseDate: "Apr 4, 2026 15:00:00 EDT",
-  // },
-  // {
-  //   name: "SAT 2",
-  //   dateRange: "Apr 11 → Apr 17, 2026",
-  //   href: "https://hackmd.io/@csci1710/HJvSHtXCyl",
-  //   autoReleaseDate: "Apr 11, 2026 16:30:00 EDT",
-  // },
-  // {
-  //   name: "SMT",
-  //   dateRange: "Apr 18 → Apr 24, 2026",
-  //   href: "https://hackmd.io/@csci1710/rkzzBmoYa",
-  //   autoReleaseDate: "Apr 9, 2026 15:00:00 EDT",
-  // },
-  // {
-  //   name: "SMT2",
-  //   dateRange: "Apr 18 → Apr 24, 2026",
-  //   href: "https://hackmd.io/@csci1710/HyCHj6CEZx",
-  //   autoReleaseDate: "Apr 16, 2026 15:00:00 EDT",
-  // },
+  {
+    name: "Modeling Intro",
+    dateRange: "Jan 30 → Feb 5, 2026",
+    href: "https://hackmd.io/@csci1710/B1NEG7jKa",
+    autoReleaseDate: "Jan 30, 2026 15:00:00 EST",
+  },
+  {
+    name: "Physical Keys",
+    dateRange: "Feb 6 → Feb 12, 2026",
+    href: "https://hackmd.io/@csci1710/ByLnzQstT",
+    autoReleaseDate: "Feb 6, 2026 15:00:00 EST",
+  },
+  {
+    name: "Memory Management",
+    dateRange: "Feb 27 → Mar 5, 2026",
+    href: "https://hackmd.io/@csci1710/S1xVNmiK6",
+    autoReleaseDate: "Feb 27, 2026 15:00:00 EST",
+  },
+  {
+    name: "Temporal Modeling",
+    dateRange: "Mar 7 → Mar 12, 2026",
+    href: "https://hackmd.io/@csci1710/HJk8E7jFa",
+    autoReleaseDate: "Mar 7, 2026 15:00:00 EST",
+  },
+  {
+    name: "SAT",
+    dateRange: "Mar 13 → Mar 19, 2026",
+    href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
+    autoReleaseDate: "Mar 13, 2026 15:00:00 EDT",
+  },
+  {
+    name: "SMT 1",
+    dateRange: "Apr 3 → Apr 9, 2026",
+    href: "https://hackmd.io/@csci1710/rkzzBmoYa",
+    autoReleaseDate: "Apr 3, 2026 15:00:00 EDT",
+  },
+  {
+    name: "SMT 2",
+    dateRange: "Apr 10 → Apr 17, 2026",
+    href: "https://hackmd.io/@csci1710/HyCHj6CEZx",
+    autoReleaseDate: "Apr 10, 2026 15:00:00 EDT",
+  },
   // {
   //   // Rickroll ;)
   //   name: "Hardest Assignment Ever...",
@@ -482,78 +470,75 @@ export const labAssignments: Assignment[] = [
     href: "https://hackmd.io/@csci1710/By-lPmstT",
     autoReleaseDate: "Jan 21, 2026 09:45:00 EST",
   },
-  // {
-  //   name: "Tic Tac Toe",
-  //   dateRange: "Jan 29 → Jan 30, 2026",
-  //   href: "https://hackmd.io/@csci1710/HkOLBXstT",
-  //   autoReleaseDate: "Jan 29, 2026 12:30:00 EST",
-  // },
-  // {
-  //   name: "N Queens",
-  //   dateRange: "Feb 05 → Feb 07, 2026",
-  //   href: "https://hackmd.io/@csci1710/BkYfImjKp",
-  //   autoReleaseDate: "Feb 05, 2026 12:30:00 EST",
-  // },
-  // {
-  //   name: "Ring Election",
-  //   dateRange: "Feb 12 → Feb 13, 2026",
-  //   href: "https://hackmd.io/@csci1710/ryC5S7jt6",
-  //   autoReleaseDate: "Feb 13, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Curiosity co-lab",
-  //   dateRange: "Feb 19 → Feb 20, 2026",
-  //   // href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-  // },
-  // {
-  //   name: "Reference Counting",
-  //   dateRange: "Feb 26 → Feb 27, 2026",
-  //   href: "https://hackmd.io/@csci1710/S1LXKW2t6",
-  //   autoReleaseDate: "Feb 27, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Hotel Case Study",
-  //   dateRange: "Mar 05 → Mar 06, 2026",
-  //   href: "",
-  //   autoReleaseDate: "Mar 06, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Dining Blacksmiths",
-  //   dateRange: "Mar 12 → Mar 13, 2026",
-  //   href: "https://hackmd.io/@csci1710/HkbhU7sta",
-  //   autoReleaseDate: "Mar 13, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Proposal co-lab",
-  //   dateRange: "Apr 02 → Apr 03, 2026",
-  //   // href: "https://www.google.com",
-  // },
-  // {
-  //   name: "SAT 2 co-lab",
-  //   dateRange: "Apr 16 → Apr 17, 2026",
-  //   // href: "https://www.google.com",
-  // },
+  {
+    name: "Tic Tac Toe",
+    dateRange: "Jan 28 → Jan 29, 2026",
+    href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    autoReleaseDate: "Jan 28, 2026 15:00:00 EST",
+  },
+  {
+    name: "N Queens",
+    dateRange: "Feb 4 → Feb 5, 2026",
+    href: "https://hackmd.io/@csci1710/BkYfImjKp",
+    autoReleaseDate: "Feb 4, 2026 15:00:00 EST",
+  },
+  {
+    name: "Ring Election",
+    dateRange: "Feb 11 → Feb 12, 2026",
+    href: "https://hackmd.io/@csci1710/ryC5S7jt6",
+    autoReleaseDate: "Feb 13, 2026 15:00:00 EST",
+  },
+  {
+    name: "Curiosity co-lab",
+    dateRange: "Feb 18 → Feb 19, 2026",
+  },
+  {
+    name: "Reference Counting",
+    dateRange: "Feb 25 → Feb 26, 2026",
+    href: "https://hackmd.io/@csci1710/S1LXKW2t6",
+    autoReleaseDate: "Feb 25, 2026 15:00:00 EST",
+  },
+  {
+    name: "Dining Blacksmiths",
+    dateRange: "Mar 4 → Mar 5, 2026",
+    href: "https://hackmd.io/@csci1710/HkbhU7sta",
+    autoReleaseDate: "Mar 4, 2026 15:00:00 EST",
+  },
+  {
+    name: "Sociotech Discussion",
+    dateRange: "Mar 11 → Mar 12, 2026",
+    href: "",
+    autoReleaseDate: "Mar 11, 2026 15:00:00 EST",
+  },
+  {
+    name: "SAT co-lab",
+    dateRange: "Apr 18 → Apr 19, 2026",
+  },
+  {
+    name: "Proposal co-lab",
+    dateRange: "Apr 1 → Apr 2, 2026",
+  },
 ];
 
 export const projectAssignments: Assignment[] = [
-  // {
-  //   name: "Curiosity Modeling",
-  //   dateRange: "Feb 14 → Feb 27, 2026",
-  //   href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-  //   autoReleaseDate: "Feb 14, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Final Project (Proposal)",
-  //   dateRange: "Apr 03, 2026",
-  //   href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-  //   autoReleaseDate: "Mar 20, 2026 15:00:00 EST",
-  // },
-  // {
-  //   name: "Final Project",
-  //   dateRange: "Apr 12 → May 08, 2026",
-  //   href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-  //   autoReleaseDate: "Apr 12, 2026 15:00:00 EST",
-  // },
+  {
+    name: "Midterm Assignment",
+    dateRange: "Feb 13 → Feb 26, 2026",
+    href: "https://hackmd.io/@csci1710/rJm6XmjKT",
+    autoReleaseDate: "Feb 13, 2026 15:00:00 EST",
+  },
+  {
+    name: "Final Project (Proposal)",
+    dateRange: "Mar 20 → Apr 2, 2026",
+    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
+    autoReleaseDate: "Mar 20, 2026 15:00:00 EST",
+  },
+  {
+    name: "Final Project",
+    dateRange: "Apr 18 → May 7, 2026",
+    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
+    autoReleaseDate: "Apr 18, 2026 15:00:00 EST",
+  },
 ];
 
 // export const forgeDocsLink: string = "";
@@ -659,13 +644,13 @@ export const utas: staffMember[] = [
 
   {
     name: "Dior Williams",
-    image: PUB + "/images/froggy.png",
+    image: PUB + "/images/staff/dior.jpg",
     objectPosition: "center 15%",
     // alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
-    pronouns: "",
-    bio: "",
-    favorite_amphibian: "",
+    pronouns: "she/her",
+    bio: "Hi, I am Senior from Houston, Texas. I love playing video games, watching movies, and this is my first time TAing a CS class. I'm usually in the EEPS department, so feel free to ask me questions about that too. :)",
+    favorite_amphibian: "Team Toad",
     role: "UTA",
   },
   {
