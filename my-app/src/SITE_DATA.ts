@@ -470,12 +470,12 @@ export const labAssignments: Assignment[] = [
     href: "https://hackmd.io/@csci1710/By-lPmstT",
     autoReleaseDate: "Jan 21, 2026 09:45:00 EST",
   },
-  {
-    name: "Tic Tac Toe",
-    dateRange: "Jan 28 → Jan 29, 2026",
-    href: "https://hackmd.io/@csci1710/HkOLBXstT",
-    autoReleaseDate: "Jan 28, 2026 15:00:00 EST",
-  },
+  // {
+  //   name: "Tic Tac Toe",
+  //   dateRange: "Jan 28 → Jan 29, 2026",
+  //   href: "https://hackmd.io/@csci1710/HkOLBXstT",
+  //   autoReleaseDate: "Jan 28, 2026 15:00:00 EST",
+  // },
   {
     name: "N Queens",
     dateRange: "Feb 4 → Feb 5, 2026",
