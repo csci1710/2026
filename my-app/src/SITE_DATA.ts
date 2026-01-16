@@ -553,11 +553,11 @@ export const policies: Resource[] = [
     href: "",
     // "https://docs.google.com/document/d/1tk0HNlvfhKPG8qVTdeZkbNdr1riRtZelWzsGt1NyZ7g/edit?usp=sharing",
   },
-  {
-    name: "Collaboration Policy",
-    href: "",
-    // "https://docs.google.com/document/d/e/2PACX-1vQ7b5GLg6Kie0l4zzuLLQ7oaC89V931dqbHQl7Rgr7sVT05bIu1WrGTcNaGpn9gg5y9Tc7GvLS32vf1/pub",
-  },
+  // {
+  //   name: "Collaboration Policy",
+  //   href: "",
+  //   // "https://docs.google.com/document/d/e/2PACX-1vQ7b5GLg6Kie0l4zzuLLQ7oaC89V931dqbHQl7Rgr7sVT05bIu1WrGTcNaGpn9gg5y9Tc7GvLS32vf1/pub",
+  // },
 ];
 
 export const importantLinks: Resource[] = [
