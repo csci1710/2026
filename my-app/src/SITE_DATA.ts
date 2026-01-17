@@ -438,7 +438,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "SAT",
     dateRange: "Mar 13 → Mar 19, 2026",
-    href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
+    href: "https://hackmd.io/@csci1710/SJvrLGYH-g",
     autoReleaseDate: "Mar 13, 2026 15:00:00 EDT",
   },
   {
@@ -552,6 +552,11 @@ export const policies: Resource[] = [
     name: "Syllabus",
     href: "",
     // "https://docs.google.com/document/d/1tk0HNlvfhKPG8qVTdeZkbNdr1riRtZelWzsGt1NyZ7g/edit?usp=sharing",
+  },
+  {
+    name: "Guide to Effective AI Use",
+    href: "",
+    // href: "https://docs.google.com/document/d/1_uj3kxTXzTSVpDodqQpLLaCZKT5y9x-oznn3cnlx4SQ/edit?usp=sharing",
   },
   // {
   //   name: "Collaboration Policy",
