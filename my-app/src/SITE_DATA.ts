@@ -598,11 +598,11 @@ export const guides: Resource[] = [
     name: "Forge Tool Documentation",
     href: "https://forge-fm.github.io/forge-documentation/home.html",
   },
-  {
-    name: "Toadus Ponens Guide",
-    href: "",
-    // "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
-  },
+  // {
+  //   name: "Toadus Ponens Guide",
+  //   href: "",
+  //   // "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
+  // },
   {
     // Goes live later in semester
     name: "Python Z3",
