@@ -512,7 +512,7 @@ export const labAssignments: Assignment[] = [
   },
   {
     name: "SAT co-lab",
-    dateRange: "Apr 18 → Apr 19, 2026",
+    dateRange: "Mar 18 → Mar 19, 2026",
   },
   {
     name: "Proposal co-lab",
