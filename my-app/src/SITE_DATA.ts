@@ -550,7 +550,7 @@ export const FAQLink: string =
 export const policies: Resource[] = [
   {
     name: "Syllabus",
-    href: "https://docs.google.com/document/d/1tk0HNlvfhKPG8qVTdeZkbNdr1riRtZelWzsGt1NyZ7g/edit?usp=sharing",
+    href: "https://docs.google.com/document/d/1y5CHtZirUx7KxOqcSI4Byy9Pxvu3tauPPniZuGUqiks/edit?usp=sharing",
   },
   {
     name: "Guide to Effective AI Use",
