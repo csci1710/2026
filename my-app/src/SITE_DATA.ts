@@ -594,7 +594,7 @@ export const guides: Resource[] = [
   },
   {
     name: "Forge Tool Documentation",
-    href: "https://forge-fm.github.io/forge-documentation/home.html",
+    href: "https://forge-fm.github.io/forge-documentation/",
   },
   // {
   //   name: "Toadus Ponens Guide",
