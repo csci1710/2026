@@ -32,7 +32,7 @@ export default function LecturesTable(props: LectureTableProps) {
         </p>
         <p>
           Notes can be found on our{" "}
-          <a href="https://forge-fm.github.io/book/" target="_blank">
+          <a href="https://forge-fm.github.io/book/2026" target="_blank">
             Forge book deployment
           </a>
           , even if the specific chapters are not yet linked below.

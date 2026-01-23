@@ -47,7 +47,7 @@ export const lectures: Lecture[] = [
     name: "What is LfS?",
     date: "Jan 21",
     notesLink:
-      "https://forge-fm.github.io/book/latest/chapters/manifesto/manifesto.html",
+      "https://forge-fm.github.io/book/2026/chapters/manifesto/manifesto.html",
     recordingLink: "",
     otherLinks: [
       {
@@ -60,13 +60,14 @@ export const lectures: Lecture[] = [
       },
     ],
   },
-  // {
-  //   name: "Properties and Testing",
-  //   date: "Jan 24",
-  //   notesLink: "https://csci1710.github.io/book/chapters/properties/pbt.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
+  {
+    name: "Properties and Testing",
+    date: "Jan 24",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/properties/pbt.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Intro to Modeling in Froglet (Part 1, Basics)",
   //   date: "Jan 27",
@@ -590,7 +591,7 @@ export const guides: Resource[] = [
   },
   {
     name: "Forge Book",
-    href: "https://forge-fm.github.io/book/",
+    href: "https://forge-fm.github.io/book/2026",
   },
   {
     name: "Forge Tool Documentation",
