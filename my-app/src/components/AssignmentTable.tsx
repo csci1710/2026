@@ -22,7 +22,7 @@ function shouldRelease(assignment: Assignment): boolean {
   const nowEST = new Date(
     now.toLocaleString("en-US", {
       timeZone: "America/New_York",
-    })
+    }),
   );
 
   return nowEST > new Date(assignment.autoReleaseDate);
@@ -59,6 +59,7 @@ export default function AssignmentTable(props: AssignmentTableProps) {
                       <td>
                         <a
                           href={assignment.href}
+                          target="_blank"
                           className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                         >
                           {assignment.name}

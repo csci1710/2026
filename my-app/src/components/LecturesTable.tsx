@@ -92,6 +92,7 @@ export default function LecturesTable(props: LectureTableProps) {
                       <td>
                         <a
                           href={lecture.notesLink}
+                          target="_blank"
                           className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                         >
                           Notes
