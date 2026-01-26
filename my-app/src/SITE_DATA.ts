@@ -73,8 +73,7 @@ export const lectures: Lecture[] = [
     date: "Jan 26",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt.html",
     recordingLink: "",
-    liveCodeLink: "",
-    // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan27_ttt.frg",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan26_ttt.frg",
   },
   // {
   //   name: "Intro to Modeling (Part 2, Transitions); Showcase",
