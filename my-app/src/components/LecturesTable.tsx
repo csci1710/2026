@@ -20,8 +20,7 @@ export default function LecturesTable(props: LectureTableProps) {
     <div className="mt-8 flex flex-col">
       <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <p>
-          The listed lecture schedule is prospective and subject to change. All
-          lecture capture videos can be found on our 2026 Canvas{" "}
+          All lecture capture videos can be found on our 2026 Canvas{" "}
           <a
             href="https://canvas.brown.edu/courses/1101694/external_tools/33943"
             target="_blank"

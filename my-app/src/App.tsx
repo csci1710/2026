@@ -90,7 +90,7 @@ function App() {
               alt="CS1710 Logo"
               className="max-auto h-[12rem]"
             />
-            <a href="https://forge-fm.github.io/book/" target="_blank">
+            <a href="https://forge-fm.github.io/book/2026/" target="_blank">
               <img
                 src={LFS_FROG}
                 alt="Cute lil froggy"

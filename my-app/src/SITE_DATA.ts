@@ -62,20 +62,20 @@ export const lectures: Lecture[] = [
   },
   {
     name: "Properties and Testing",
-    date: "Jan 24",
+    date: "Jan 23",
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/properties/pbt.html",
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Intro to Modeling in Froglet (Part 1, Basics)",
-  //   date: "Jan 27",
-  //   notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan27_ttt.frg",
-  // },
+  {
+    name: "Intro to Modeling in Froglet (Part 1, Basics)",
+    date: "Jan 26",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan27_ttt.frg",
+  },
   // {
   //   name: "Intro to Modeling (Part 2, Transitions); Showcase",
   //   date: "Jan 29",
