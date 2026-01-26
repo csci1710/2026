@@ -67,6 +67,12 @@ export const lectures: Lecture[] = [
       "https://forge-fm.github.io/book/2026/chapters/properties/pbt.html",
     recordingLink: "",
     liveCodeLink: "",
+    otherLinks: [
+      {
+        name: "Choosing Properties for Property-Based Testing",
+        link: "https://fsharpforfunandprofit.com/posts/property-based-testing-2/",
+      },
+    ]
   },
   {
     name: "Intro to Modeling in Froglet (Part 1, Basics)",
