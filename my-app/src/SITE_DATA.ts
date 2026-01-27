@@ -72,23 +72,23 @@ export const lectures: Lecture[] = [
         name: "Choosing Properties for Property-Based Testing",
         link: "https://fsharpforfunandprofit.com/posts/property-based-testing-2/",
       },
-    ]
+    ],
   },
   {
     name: "Intro to Modeling in Froglet (Part 1, Basics)",
     date: "Jan 26",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan26_ttt.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan26_ttt.frg",
   },
-  // {
-  //   name: "Intro to Modeling (Part 2, Transitions); Showcase",
-  //   date: "Jan 29",
-  //   notesLink: "https://csci1710.github.io/book/chapters/bst/bst.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan29_ttt.frg",
-  // },
+  {
+    name: "Intro to Modeling (Part 2, Transitions); Showcase",
+    date: "Jan 28",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/bst/bst.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   //name: "Design-Space Exploration and Constraint Solving",
   //   name: "Intro to Modeling (Part 3, Traces)",
