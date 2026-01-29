@@ -132,15 +132,13 @@ export default function LecturesTable(props: LectureTableProps) {
                     {lecture.otherLinks ? (
                       <td>
                         {lecture.otherLinks.map((otherLink, index) => (
-                          <span key={index}>
-                            <a
-                              href={otherLink.link}
-                              className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
-                            >
-                              {otherLink.name}
-                            </a>
-                            <br />
-                          </span>
+                          <a
+                            key={index}
+                            href={otherLink.link}
+                            className="block whitespace-nowrap py-1 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
+                          >
+                            {otherLink.name}
+                          </a>
                         ))}
                       </td>
                     ) : (
