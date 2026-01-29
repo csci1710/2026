@@ -97,18 +97,16 @@ export const lectures: Lecture[] = [
       },
     ],
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan28_ttt.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan28_ttt.frg",
   },
-  // {
-  //   //name: "Design-Space Exploration and Constraint Solving",
-  //   name: "Intro to Modeling (Part 3, Traces)",
-  //   date: "Jan 31",
-  //   notesLink: "https://forge-fm.github.io/book/2026/chapters/bst/bst.html"
-  // // "https://csci1710.github.io/book/chapters/adder/rca.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
-  // },
+  {
+    name: "Design-Space Exploration and Constraint Solving",
+    date: "Jan 30",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/adder/rca.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   //name: "Discrete Event Systems",
   //   name: "Intro to Modeling (Part 4, FAQ)",
