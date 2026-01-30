@@ -108,7 +108,8 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
     // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
-  }
+  },
+
 
   // {
   //   //name: "Discrete Event Systems",
@@ -384,6 +385,15 @@ export const lectures: Lecture[] = [
   //   recordingLink: "",
   //   liveCodeLink: "",
   // },
+
+  {
+    name: "...remainder of semester...",
+    date: "... ... ...",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+
   {
     name: "Guest Speaker (Details TBA)",
     date: "Apr 22",
@@ -392,7 +402,7 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   {
-    name: "Guest Speaker (Details TBA; Possibly none)",
+    name: "Guest Speaker or none (Details TBA)",
     date: "Apr 24",
     notesLink: "",
     recordingLink: "",
