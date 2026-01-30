@@ -100,13 +100,16 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan28_ttt.frg",
   },
+    // notesLink: "https://forge-fm.github.io/book/2026/chapters/adder/rca.html",
   {
     name: "Design-Space Exploration and Constraint Solving",
     date: "Jan 30",
-    notesLink: "https://forge-fm.github.io/book/2026/chapters/adder/rca.html",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/bst/bst",
     recordingLink: "",
     liveCodeLink: "",
-  },
+    // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
+  }
+
   // {
   //   //name: "Discrete Event Systems",
   //   name: "Intro to Modeling (Part 4, FAQ)",
@@ -381,41 +384,48 @@ export const lectures: Lecture[] = [
   //   recordingLink: "",
   //   liveCodeLink: "",
   // },
-  // {
-  //   name: "Guest: Anjali Pal",
-  //   date: "Apr 23",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
-  //   name: "Guest: Margarida Ferreira",
-  //   date: "Apr 25",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
-  //   name: "Guest: Anirudh Narsipur",
-  //   date: "Apr 28",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
-  //   name: "Guest: Andrew Wagner",
-  //   date: "Apr 30",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
-  //   name: "Guest: Carolyn Zech",
-  //   date: "May 02",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
+  {
+    name: "Guest Speaker (Details TBA)",
+    date: "Apr 22",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Guest Speaker (Details TBA; Possibly none)",
+    date: "Apr 24",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Guest Speaker (Details TBA)",
+    date: "Apr 27",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Guest Speaker (Details TBA)",
+    date: "Apr 29",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Guest Speaker (Details TBA)",
+    date: "May 1",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Guest Speaker: Prof. Milda Zizyte (Brown)",
+    date: "May 4",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment
