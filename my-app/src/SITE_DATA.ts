@@ -102,11 +102,21 @@ export const lectures: Lecture[] = [
   },
     // notesLink: "https://forge-fm.github.io/book/2026/chapters/adder/rca.html",
   {
-    name: "Design-Space Exploration and Constraint Solving",
+    name: "Design-Space Exploration and Visualization (BSTs)",
     date: "Jan 30",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/bst/bst",
-    recordingLink: "",
-    liveCodeLink: "",
+    recordingLink: "https://brown.zoom.us/rec/share/v8QU4qeYOCM3qkC3rKnPZVCxm_GfW0qYwZCd2d2ZtIo3Z8Ir1GBUjJDz1V2rl8WJ.mlHGEA_mkwy8MuCK?startTime=1769800236000",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan30_bst.frg",
+    otherLinks: [
+      {
+        name: "Visualization",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan30_bst.cnd",
+      },
+      {
+        name: "Zoom Recording",
+        link: "https://brown.zoom.us/rec/share/PETfQ9Bfazl0J09h1vNZFGf80utX_owf1EKSDoXlSzJYfpKrP7FRvNr90bL-69HV.pt4PDeTloMC3KcKb?startTime=1769800236000"
+      },
+    ]
     // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
   },
 
