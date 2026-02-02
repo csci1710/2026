@@ -639,7 +639,7 @@ export const guides: Resource[] = [
   },
   {
     name: "Forge Tool Documentation",
-    href: "https://forge-fm.github.io/forge-documentation/",
+    href: "https://forge-fm.github.io/forge-documentation/5.0",
   },
   // {
   //   name: "Toadus Ponens Guide",
