@@ -117,20 +117,16 @@ export const lectures: Lecture[] = [
         link: "https://brown.zoom.us/rec/share/PETfQ9Bfazl0J09h1vNZFGf80utX_owf1EKSDoXlSzJYfpKrP7FRvNr90bL-69HV.pt4PDeTloMC3KcKb?startTime=1769800236000"
       },
     ]
-    // "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
   },
 
 
-  // {
-  //   //name: "Discrete Event Systems",
-  //   name: "Intro to Modeling (Part 4, FAQ)",
-  //   date: "Feb 03",
-  //   notesLink: "https://csci1710.github.io/book/chapters/qna/static.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb03_ttt.frg",
-  // },
-  // {
+  {
+    name: "Contrasting Models and Q&A",
+    date: "Feb 02",
+    notesLink: "https://csci1710.github.io/book/chapters/qna/static.html",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb02_ttt.frg",
+  },
+  //{
   //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
   //   date: "Feb 05",
   //   notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
