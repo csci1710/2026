@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/2026/static/css/main.82660aef.css",
-    "main.js": "/2026/static/js/main.933a7820.js",
+    "main.js": "/2026/static/js/main.4f9c5d93.js",
     "static/js/787.2b6f9e78.chunk.js": "/2026/static/js/787.2b6f9e78.chunk.js",
     "static/media/lfs_frog_toad.jpg": "/2026/static/media/lfs_frog_toad.5f70537d79cd6611292c.jpg",
     "static/media/iStock-1249040981.jpg": "/2026/static/media/iStock-1249040981.51d90ea4a80d2d1b09d3.jpg",
@@ -11,11 +11,11 @@
     "static/media/new-layered-waves-haikei.svg": "/2026/static/media/new-layered-waves-haikei.6650d32d6fa4a11a57ae.svg",
     "index.html": "/2026/index.html",
     "main.82660aef.css.map": "/2026/static/css/main.82660aef.css.map",
-    "main.933a7820.js.map": "/2026/static/js/main.933a7820.js.map",
+    "main.4f9c5d93.js.map": "/2026/static/js/main.4f9c5d93.js.map",
     "787.2b6f9e78.chunk.js.map": "/2026/static/js/787.2b6f9e78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82660aef.css",
-    "static/js/main.933a7820.js"
+    "static/js/main.4f9c5d93.js"
   ]
 }
