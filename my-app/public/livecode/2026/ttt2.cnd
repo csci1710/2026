@@ -1,0 +1,14 @@
+constraints:
+  - orientation: {selector: '{c1,c2: Cell | c1.row = c2.row and c1.col > c2.col}', directions: [directlyLeft]}
+  - orientation: {selector: '{c1,c2: Cell | c1.col > c2.col}', directions: [left]}
+  - orientation: {selector: '{c1,c2: Cell | c1.col = c2.col and c1.row > c2.row}', directions: [directlyBelow]}
+  - orientation: {selector: '{c1,c2: Cell | c1.row > c2.row}', directions: [below]}
+
+directives:
+  - icon: {showLabels: false, selector: '{ o : Cell | some (Board->o->O & board)}', path: tic-o}
+  - icon: {showLabels: false, selector: '{ x : Cell | some (Board->x->X & board)}', path: tic-x}
+  - projection: {sig: Board}
+  - hideAtom: {selector: "X + O"}
+  - attribute: {field: col}
+  - attribute: {field: row}
+  - flag: hideDisconnectedBuiltIns
