@@ -124,17 +124,27 @@ export const lectures: Lecture[] = [
   {
     name: "Contrasting Models and Q&A",
     date: "Feb 02",
-    notesLink: "https://csci1710.github.io/book/chapters/qna/static.html",
-    liveCodeLink:
-      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb02_ttt.frg",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/qna/static.html",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb02_ttt.frg",
   },
-  //{
+  
+  
+  {
+    name: "Finding Bad States (Part 1)",
+    date: "Feb 05",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
+    recordingLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb04_ttt.frg",
+  },
+
+  // {
   //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
   //   date: "Feb 05",
   //   notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
   //   recordingLink: "",
   //   liveCodeLink: "",
   // },
+
   // {
   //   name: "Discrete Events and Traces (Part 2, Preservation)",
   //   date: "Feb 07",

@@ -1,6 +1,6 @@
 #lang forge/froglet
 
-option run_sterling "ttt2.cnd"
+//option run_sterling "ttt2.cnd"
 
 /*
   I'd love to use the new CnD visualization support for Feb 02's model. 
@@ -224,3 +224,72 @@ cells_step: run {
           move[b1, r, c, p, b2]
     }
 } for exactly 2 Board, exactly 9 Cell
+
+///////////////////////////////////////////////////////////
+// February 4th content starts here
+///////////////////////////////////////////////////////////
+
+// Labs starting this week!! 
+//    - Space constraints on rooms are still a thing. 
+//    - We're hoping to load balance better next week.
+
+// Watch for Forge 5.1, and update when you can.
+//    - some visualization improvements
+//    - some error-checking improvements 
+//    - fixes to the internal testing system
+
+// If you are having any setup issues, CONTACT US ASAP!
+//    - Docs/book have "latest" as 2025 version for external compatibility.
+
+// Ok, let's start!
+
+
+// Property: we can never reach an imbalanced board
+
+// Ask: are there any starting states that are imbalanced?
+//  balanced[b: Board] starting[b: Board]
+pred bad_starting_board {
+    some b: Board | {   // some s: DistributedSystemState |
+        starting[b]     // initialState[s]
+        not balanced[b] // not consistencyProperty[s]
+    }
+}
+assert {bad_starting_board} is unsat for 9 Cell 
+
+pred bad_1_hop {
+    wellformed
+    some b1, b2: Board | {
+        starting[b1]
+        some r,c: Int, p: Player | move[b1, r, c, p, b2]
+        not balanced[b2] -- not preserved in post-state
+    }
+}
+assert {bad_1_hop} is unsat for 9 Cell 
+
+pred bad_2_hop {
+    wellformed
+    some b1, b2, b3: Board | {
+        starting[b1]
+        some r,c: Int, p: Player | move[b1, r, c, p, b2]
+        some r,c: Int, p: Player | move[b2, r, c, p, b3]
+        not balanced[b3] -- not preserved in post-state
+    }
+}
+assert {bad_2_hop} is unsat for exactly 9 Cell 
+
+pred bad_k_hop {
+    wellformed
+    some b1, b2: Board | {
+        balanced[b1]     -- present in pre-state
+        some r,c: Int, p: Player | move[b1, r, c, p, b2]
+        not balanced[b2] -- not preserved in post-state
+    }
+}
+assert {bad_k_hop} is unsat for exactly 9 Cell 
+
+
+
+
+
+
+// Property: once I've won, I stay winning
