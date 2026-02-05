@@ -84,9 +84,11 @@ pred starting[b: Board] {
 
 pred winRow[b: Board, p: Player] {
     some row: Int | {
-        b.board[row][0] = p
-        b.board[row][1] = p
-        b.board[row][2] = p
+      all col: Int | (col = 0 or col = 1 or col = 2){
+        b.board[row][col] = p
+        // b.board[row][1] = p
+        // b.board[row][2] = p
+      }
     }
 }
 

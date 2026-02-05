@@ -1,6 +1,6 @@
 #lang forge/froglet
 
-//option run_sterling "ttt2.cnd"
+option run_sterling "ttt2.cnd"
 
 /*
   I'd love to use the new CnD visualization support for Feb 02's model. 
