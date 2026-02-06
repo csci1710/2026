@@ -131,12 +131,12 @@ export const lectures: Lecture[] = [
   
   {
     name: "Finding Bad States (Part 1)",
-    date: "Feb 05",
+    date: "Feb 04",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
     recordingLink: "",
     liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb04_ttt.frg",
   },
-
+// 
   // {
   //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
   //   date: "Feb 05",
@@ -145,15 +145,20 @@ export const lectures: Lecture[] = [
   //   liveCodeLink: "",
   // },
 
-  // {
-  //   name: "Discrete Events and Traces (Part 2, Preservation)",
-  //   date: "Feb 07",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/inductive/bsearch.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
+  {
+    name: "Finding Bad States (Part 2, Preservation)",
+    date: "Feb 06",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    otherLinks: [
+      {
+        name: "Starter",
+        link: "https://forge-fm.github.io/book/2026/chapters/inductive/binarysearch_template.frg",
+      }]
+  },
+  //{
   //   name: "Inductive Verification: Binary Search (Part 1)",
   //   date: "Feb 10",
   //   notesLink:
