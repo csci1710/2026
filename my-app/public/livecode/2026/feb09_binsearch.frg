@@ -74,7 +74,8 @@ pred init[s: SearchState] {
 -- because the target, etc. are fixed at the start of the search. 
 pred stepNarrow[pre: SearchState, post: SearchState] {    
     -- mid = (low+high)/2  (rounded down)
-    let mid = divide[add[pre.low, pre.high], 2] | {
+    let mid = add[pre.low, divide[subtract[pre.high, pre.low], 2]] | {
+    //let mid = divide[add[pre.low, pre.high], 2] | {
       -- GUARD: must continue searching, this isn't it
       pre.arr.elements[mid] != pre.target
       -- ACTION: narrow left or right
@@ -149,6 +150,7 @@ pred safeArraySize[theArr: IntArray] {
     -- (See: https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html)
     
     // FILL (Exercise 2--3)
+    //theArr.lastIndex <= 1
 }
 
 -------------------------------------------------------------------------------------
@@ -186,16 +188,23 @@ pred unsafeOrNotInit[s: SearchState] {
 assert all s1, s2: SearchState | stepDoneFail[s1, s2] is sufficient for unsafeOrNotInit[s1]
   for exactly 1 IntArray, exactly 2 SearchState
 
--- The central invariant of binary search: 
---   If the target is present, it's located between low and high
+/** The central invariant of binary search: 
+    If the target is present (not considering the other dir).
+    It's located between low and high
+    ... + enrichments */
 pred bsearchInvariant[s: SearchState] {
-   
     all i: Int | {    
         s.arr.elements[i] = s.target => {
             s.low <= i
             s.high >= i
-
             // FILL (exercise 2--3)
+            // TODO could pull this out -- key is the tgt is there
+            s.high <= s.arr.lastIndex
+            s.low <= s.arr.lastIndex 
+            // Since we're only thinking about when the tgt is there
+            s.low >= 0 
+            s.high >= 0 
+
         }        
     }    
 }
@@ -212,6 +221,7 @@ baseCase: assert all s: SearchState | init[s] is sufficient for bsearchInvariant
 -- INDUCTIVE
 -- FILL: what describes the check that transitions always satisfy the invariant?
 inductiveCase: assert all s1, s2: SearchState | {
+    safeArraySize[s1.arr]  -- (big over-appx) needed to show no overflow
     validArray[s1.arr]
     anyTransition[s1,s2] 
     bsearchInvariant[s1]

@@ -1,3 +1,7 @@
+constraints:
+  - size: {width: 100, height: 80, selector: IntArray}
+  - size: {width: 100, height: 100, selector: SearchState}
+
 directives:
   - attribute: {field: elements}
   - attribute: {field: lastIndex}
