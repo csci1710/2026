@@ -151,24 +151,25 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb06_binsearch.frg",
     otherLinks: [
       {
         name: "Starter",
         link: "https://forge-fm.github.io/book/2026/chapters/inductive/binarysearch_template.frg",
       }]
   },
-  //{
-  //   name: "Inductive Verification: Binary Search (Part 1)",
-  //   date: "Feb 10",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/inductive/bsearch.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb10_bsearch.frg",
-  // },
-  // {
-  //   name: "Inductive Verification: Binary Search (Part 2)",
+  {
+    name: "Finding Bad States (Part 3)",
+    date: "Feb 09",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
+    recordingLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb09_binsearch.frg",
+    //otherLinks: []
+  },
+
+
+    //   name: "Inductive Verification: Binary Search (Part 2)",
   //   date: "Feb 12",
   //   notesLink: "",
   //   recordingLink: "",
@@ -446,7 +447,7 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   {
-    name: "Guest Speaker (Details TBA)",
+    name: "Guest: Zachary Espiritu (MongoDB Research)",
     date: "May 1",
     notesLink: "",
     recordingLink: "",
