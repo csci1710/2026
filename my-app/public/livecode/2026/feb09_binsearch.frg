@@ -1,5 +1,7 @@
 #lang forge/froglet
 
+option run_sterling "bsearch.cnd"
+
 /*
   Rough model of binary search on an array of integers.  
 
