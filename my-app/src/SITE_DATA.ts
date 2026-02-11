@@ -173,11 +173,15 @@ export const lectures: Lecture[] = [
     date: "Feb 11",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt_games.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb11_ttt.frg",
     otherLinks: [
       {
         name: "Exercise",
         link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/ind1.py",
+      },
+      {
+        name: "Exercise (Notes)",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/ind1_completed.py",
       },
     ],
   },
