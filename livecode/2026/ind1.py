@@ -1,5 +1,5 @@
 
-# (Example borrowed from Aaron Bradley)
+# (Example borrowed from Aaron Bradley -- re: a 15yr old algorithm)
 # Is the property "y >= 1" always true in the loop? I.e., is "y >= 1" an invariant? 
 #    Yes. It's a trivial example.
 # Real systems are more complex, and the idea goes way beyond Forge (though we could use
