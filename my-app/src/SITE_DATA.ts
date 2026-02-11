@@ -168,20 +168,19 @@ export const lectures: Lecture[] = [
     //otherLinks: []
   },
 
-
-    //   name: "Inductive Verification: Binary Search (Part 2)",
-  //   date: "Feb 12",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_bsearch.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "TTT Games",
-  //       link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_ttt.frg",
-  //     },
-  //   ],
-  // },
+  { 
+    name: "Finding Traces",
+    date: "Feb 11",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt_games.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    otherLinks: [
+      {
+        name: "Exercise",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/ind1.frg",
+      },
+    ],
+  },
   // {
   //   name: "Inductive Verification: Binary Search (Part 3)",
   //   date: "Feb 14",
