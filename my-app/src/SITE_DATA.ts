@@ -177,7 +177,7 @@ export const lectures: Lecture[] = [
     otherLinks: [
       {
         name: "Exercise",
-        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/ind1.frg",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/ind1.py",
       },
     ],
   },
