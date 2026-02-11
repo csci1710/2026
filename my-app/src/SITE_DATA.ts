@@ -548,7 +548,7 @@ export const labAssignments: Assignment[] = [
     name: "Ring Election",
     dateRange: "Feb 11 → Feb 12, 2026",
     href: "https://hackmd.io/@csci1710/ryC5S7jt6",
-    autoReleaseDate: "Feb 13, 2026 15:00:00 EST",
+    autoReleaseDate: "Feb 11, 2026 15:00:00 EST",
   },
   {
     name: "Curiosity co-lab",
