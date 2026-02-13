@@ -136,14 +136,6 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb04_ttt.frg",
   },
-// 
-  // {
-  //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
-  //   date: "Feb 05",
-  //   notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
 
   {
     name: "Finding Bad States (Part 2, Preservation)",
@@ -185,14 +177,18 @@ export const lectures: Lecture[] = [
       },
     ],
   },
-  // {
-  //   name: "Inductive Verification: Binary Search (Part 3)",
-  //   date: "Feb 14",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/validation/validating_events.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
+
+  // 
+
+  {
+    name: "Validation and Q&A",
+    date: "Feb 13",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/validation/validating_events.html",
+    recordingLink: "",
+   // liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb13_ttt.frg",
+    otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLSd8BA9DUBAGaUVyZziGItQks_fHOZbPIV8Q8yH6L2tQa1p2uA/viewform?usp=publish-editor"}]
+  },
   // {
   //   name: "Modeling syntax, semantics, and sets: Relational Forge",
   //   date: "Feb 19",
