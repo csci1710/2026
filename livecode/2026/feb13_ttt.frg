@@ -204,9 +204,9 @@ pred move[pre: Board, moveRow: Int, moveCol: Int, p: Player, post: Board] {
   --   Next player's turn after
   --     (What do we need to do here?)
   --   Mark for player p is now in row,col
+    -- Note how tempting it is to merge the guard + action here
   all c: Cell | (c.row = moveRow and c.col = moveCol) implies {
     post.board[c] = p
-    -- Note how tempting it is to merge the guard + action here
   }
   -- post.board[row][col] = p
 
@@ -304,16 +304,25 @@ one sig Game {
 }
 
 pred wellformed_game {
+    // The board is wellformed >.<
+    wellformed
+    
     // Tie the first state in the trace to the init pred
     starting[Game.first]
     // Tie every step in the trace to the transition pred
     all b1, b2: Board | b2 = Game.next[b1] implies {
-        some r, c: Int, p: Player| 
+        some r, c: Int, p: Player | 
             move[b1, r,c,p, b2]
     }
     // structural 
     all b: Board | { Game.first != Game.next[b] }
 }
+
+// To enable "unsat core highlighting"
+// option solver MiniSatProver
+// option coregranularity 2
+// option logtranslation 2
+// option core_minimization rce
 
 a_game: run {
     // ******************
@@ -322,8 +331,12 @@ a_game: run {
     // ******************
     wellformed_game
     some b: Board | winning[b, X]
-} for {
+} 
+for exactly 9 Board 
+for {
     // Compiler pre-assigns a linear ordering on all Games
     // G1 => G2 => G3 => ...
     next is linear   
 }
+
+// TODO: try optimizer
