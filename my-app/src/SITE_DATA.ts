@@ -189,15 +189,16 @@ export const lectures: Lecture[] = [
    // liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb13_ttt.frg",
     otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLSd8BA9DUBAGaUVyZziGItQks_fHOZbPIV8Q8yH6L2tQa1p2uA/viewform?usp=publish-editor"}]
   },
-  // {
-  //   name: "Modeling syntax, semantics, and sets: Relational Forge",
-  //   date: "Feb 19",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb19_boolean.frg",
-  // },
+  {
+    name: "Modeling syntax, semantics, and sets: Relational Forge",
+    date: "Feb 18",
+    notesLink:
+       "https://forge-fm.github.io/book/2026/chapters/relations/modeling-booleans-1.html",
+    recordingLink: "",
+    //liveCodeLink:
+//      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb19_boolean.frg"
+    otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLScJEC7lcPAMPD7AIXDWX21v6OK3gALXstCxFD0JOGbr4H5_qw/viewform?usp=publish-editor"}],
+  },
   // {
   //   name: "Modeling syntax, semantics, and sets: Relational Forge",
   //   date: "Feb 21",
