@@ -195,8 +195,8 @@ export const lectures: Lecture[] = [
     notesLink:
        "https://forge-fm.github.io/book/2026/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
-    //liveCodeLink:
-//      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb19_boolean.frg"
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.py",
     otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLScJEC7lcPAMPD7AIXDWX21v6OK3gALXstCxFD0JOGbr4H5_qw/viewform?usp=publish-editor"}],
   },
   // {
