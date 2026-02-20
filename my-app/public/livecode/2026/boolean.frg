@@ -74,17 +74,7 @@ pred wellformed {
     wellformed_semantics
 }
 
-run {
-    wellformed_syntax
-    some top: Formula | {
-        all other: Formula | top != other => {
-            subformulaOf[other, top]
-        }
-    }
-} for exactly 8 Formula 
-
-assert { some a: And | a.a_left = a} 
-  is inconsistent with wellformed_syntax
+// Note: moved run/assert to the end, to ensure Valuation is in scope.
 
 // Feb 20th Content
 
@@ -110,18 +100,17 @@ pred wellformed {
    }
 */
 
-one sig True {}
-
 /** Maps every boolean variable to either 
     true or false. Our "input" to a fmla */
 sig Valuation {
-    //truths: pfunc Var -> True
+    //truths:  pfunc Var -> True
     truths: set Var
 }
 
 /** Evaluates to true IFF fmla is true under val */
 pred wellformed_semantics { //[f: Formula, val: Valuation] {
-    all f: Formula | {
+    // all f: Formula | {
+    all f: univ | f in Formula => {
         (f in Var) => f.satisfiedBy = 
           {v: Valuation | f in v.truths}
         (f in And) => f.satisfiedBy = 
@@ -152,4 +141,19 @@ pred relational_things {
         // of one column and one row
         f = Formula
     }
+
+    Formula = Var + And + Or + Not
 }
+
+
+run {
+    wellformed_syntax
+    some top: Formula | {
+        all other: Formula | top != other => {
+            subformulaOf[other, top]
+        }
+    }
+} for exactly 8 Formula 
+
+assert { some a: And | a.a_left = a} 
+  is inconsistent with wellformed_syntax
