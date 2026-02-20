@@ -1,4 +1,5 @@
-#lang forge/froglet
+#lang forge
+// /froglet
 
 
 /*
@@ -51,7 +52,9 @@
 */
 
 // Syntax
-abstract sig Formula {}
+abstract sig Formula {
+    satisfiedBy: set Valuation
+}
 sig Var extends Formula {}
 sig Not extends Formula { child: one Formula }
 sig And extends Formula { a_left, a_right: one Formula }
@@ -65,8 +68,10 @@ pred subformulaOf[sub: Formula, super: Formula] {
 pred wellformed_syntax {
     // Cycles? 
     all f: Formula | not subformulaOf[f, f]
-
-
+}
+pred wellformed {
+    wellformed_syntax
+    wellformed_semantics
 }
 
 run {
@@ -76,11 +81,75 @@ run {
             subformulaOf[other, top]
         }
     }
-} for exactly 8 Formula
+} for exactly 8 Formula 
 
 assert { some a: And | a.a_left = a} 
   is inconsistent with wellformed_syntax
 
-// Semantics
+// Feb 20th Content
 
-// Variables need to be true or false 
+/*
+
+// Any worries about the wellformed predicate from our stencil? E.g., 
+pred wellformed {
+    -- No tumblers at negative indices
+    -- No breaks at a negative lengths
+    all l: Lock, t, h: Int |
+        (l.breaks[t][h] = True) implies 
+          (t >= 0 and h >= 0) 
+}
+*/
+
+// Semantics
+// E.g., "Variables need to be true or false"
+
+/*
+   //if(myObject.foo() == 1 && myObject.bar() == 1) {
+   if(A && B) {
+   ...
+   }
+*/
+
+one sig True {}
+
+/** Maps every boolean variable to either 
+    true or false. Our "input" to a fmla */
+sig Valuation {
+    //truths: pfunc Var -> True
+    truths: set Var
+}
+
+/** Evaluates to true IFF fmla is true under val */
+pred wellformed_semantics { //[f: Formula, val: Valuation] {
+    all f: Formula | {
+        (f in Var) => f.satisfiedBy = 
+          {v: Valuation | f in v.truths}
+        (f in And) => f.satisfiedBy = 
+          {v: Valuation | 
+            v in f.a_left.satisfiedBy and 
+            v in f.a_right.satisfiedBy } 
+        (f in Or) => f.satisfiedBy = 
+          {v: Valuation | 
+            v in f.a_left.satisfiedBy or  
+            v in f.a_right.satisfiedBy } 
+        (f in Not) => f.satisfiedBy = 
+          Valuation - f.child.satisfiedBy
+    }
+    
+    // (f in And) => ...
+  /*
+    
+    (f instanceof And) => 
+      (semantics[f.a_left, val] and 
+       semantics[f.a_right, val])
+
+  */
+}
+
+pred relational_things {
+    all f: Formula | {
+        // in relational forge, "f" is the set
+        // of one column and one row
+        f = Formula
+    }
+}
