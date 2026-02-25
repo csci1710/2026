@@ -208,15 +208,27 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.py",
   },
-  //{
-  //   name: "Join and Reachability",
-  //   date: "Feb 24",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/relations/reachability.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb24_join.frg",
-  // },
+  {
+    name: "Cancelled due to snow",
+    date: "Feb 23",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Join and Reachability",
+    date: "Feb 25",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/relations/reachability.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    otherLinks: [
+      {name: "Exercise", 
+       link: "https://docs.google.com/forms/d/e/1FAIpQLSddiMR0jxTQ-ZZ7Ri8nEvTjMygRYH40e1jA5WjVVBiHJvVA2Q/viewform?usp=publish-editor"},
+    ]
+  },
+
+  
   // {
   //   name: "Modeling Mutex (Part 1)",
   //   date: "Feb 26",

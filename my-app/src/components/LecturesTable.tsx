@@ -30,11 +30,11 @@ export default function LecturesTable(props: LectureTableProps) {
           .
         </p>
         <p>
-          Notes can be found on our{" "}
+          Lecture notes are usually a subset of the textbook. The book can be found 
           <a href="https://forge-fm.github.io/book/2026" target="_blank">
-            Forge book deployment
+            here
           </a>
-          , even if the specific chapters are not yet linked below.
+          , even if the specific chapters are not yet linked below. 
         </p>
         <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
           <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
@@ -95,7 +95,7 @@ export default function LecturesTable(props: LectureTableProps) {
                           target="_blank"
                           className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                         >
-                          Notes
+                          Notes/Chapter
                         </a>
                       </td>
                     ) : (
