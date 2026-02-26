@@ -1,6 +1,8 @@
 #lang forge
 // /froglet
 
+option run_sterling "boolean.cnd"
+
 
 /*
   
@@ -78,17 +80,8 @@ pred wellformed {
 
 // Feb 20th Content
 
-/*
+// Then Feb 25 Content
 
-// Any worries about the wellformed predicate from our stencil? E.g., 
-pred wellformed {
-    -- No tumblers at negative indices
-    -- No breaks at a negative lengths
-    all l: Lock, t, h: Int |
-        (l.breaks[t][h] = True) implies 
-          (t >= 0 and h >= 0) 
-}
-*/
 
 // Semantics
 // E.g., "Variables need to be true or false"
@@ -146,14 +139,41 @@ pred relational_things {
 }
 
 
-run {
-    wellformed_syntax
+interestingExample: run {
+    wellformed // remember to use _both_ the syntax and semantics wf predicates
+    // give us a single formula, not a forest of them
     some top: Formula | {
         all other: Formula | top != other => {
             subformulaOf[other, top]
         }
+    // Use a variety of operators
+    //some And
+    some Or
+    some Not
+
+    // Since this is a demo, avoid unnecessary duplication
+    all a: And | some a.a_left => a.a_left != a.a_right
+    all o: Or | some o.o_left => o.o_left != o.o_right
+    all n: Not | (some n.child and some n.child.child) => n.child.child != n
+
     }
-} for exactly 8 Formula 
+} for exactly 6 Formula, 2 Var, exactly 2 And // use at least 2 different variables
+
+// TEXTBOOK: this chapter shows how we check DeMorgan's law, etc.
+
 
 assert { some a: And | a.a_left = a} 
   is inconsistent with wellformed_syntax
+
+
+fun subf: set Formula -> Formula {
+    // We could do this; better to just move the definition into this helper to begin with.
+    {f1, f2: Formula | subformulaOf[f1,f2] }
+}
+
+fun direct_subf: set Formula -> Formula {
+    // No transitive closure, because we aren't trying to get _reachability_
+    //{f1, f2: Formula | f2 = f1.(child + a_left + a_right + o_left + o_right) }
+    // But we can do even better...
+    (child + a_left + a_right + o_left + o_right)
+}

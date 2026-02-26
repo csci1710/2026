@@ -1,0 +1,14 @@
+# Note: we can't say that o_left is always going to go left, and o_right is always going to go right
+# because a formula can technically have both children point to the same node. But we can do this 
+# in a one-sided way.
+
+constraints:
+  - orientation: {selector: a_right + o_right + a_left + o_left, directions: [below]}
+  - orientation: {selector: o_left + a_left, directions: [left]}
+  - orientation: {selector: child, directions: [directlyBelow]}
+
+directives:
+  - attribute: {field: satisfiedBy}
+  - atomColor: {value: '#0433ff', selector: And}
+  - flag: hideDisconnectedBuiltIns
+
