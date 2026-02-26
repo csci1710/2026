@@ -206,7 +206,7 @@ export const lectures: Lecture[] = [
       "https://forge-fm.github.io/book/2026/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
     liveCodeLink:
-      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.py",
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.frg",
   },
   {
     name: "Cancelled due to snow",
@@ -221,10 +221,12 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/relations/reachability.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.frg",
     otherLinks: [
       {name: "Exercise", 
        link: "https://docs.google.com/forms/d/e/1FAIpQLSddiMR0jxTQ-ZZ7Ri8nEvTjMygRYH40e1jA5WjVVBiHJvVA2Q/viewform?usp=publish-editor"},
+      {name: "Visualization", 
+       link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.cn"},
     ]
   },
 
