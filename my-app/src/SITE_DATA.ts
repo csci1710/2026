@@ -226,79 +226,76 @@ export const lectures: Lecture[] = [
       {name: "Exercise", 
        link: "https://docs.google.com/forms/d/e/1FAIpQLSddiMR0jxTQ-ZZ7Ri8nEvTjMygRYH40e1jA5WjVVBiHJvVA2Q/viewform?usp=publish-editor"},
       {name: "Visualization", 
-       link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.cn"},
+       link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.cnd"},
     ]
   },
-
-  
-  // {
-  //   name: "Modeling Mutex (Part 1)",
-  //   date: "Feb 26",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb26_mutex.frg",
-  // },
-  // {
-  //   name: "Modeling Mutex (Part 2)",
-  //   date: "Feb 28",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb28_mutex.frg",
-  // },
-  // {
-  //   name: "Liveness and Lassos",
-  //   date: "Mar 03",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar03_mutex.frg",
-  // },
-  // {
-  //   name: "Temporal Forge",
-  //   date: "Mar 05",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_mutex.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "Integer counter model",
-  //       link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_counter.frg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Modeling Mutex (Part 3, Temporally)",
-  //   date: "Mar 07",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar07_mutex.frg",
-  // },
-  // {
-  //   name: "Obligations and the Past",
-  //   date: "Mar 10",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  //   // otherLinks: [
-  //   //   {
-  //   //     name: "Traffic lights model",
-  //   //     link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
-  //   //   },
-  //   // ],
-  // },
+  {
+    name: "Modeling Mutex (Part 1)",
+    date: "Feb 27",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/relations/sets-induction-mutex.html",
+    recordingLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb27_mutex.frg",
+  },
+  {
+    name: "Modeling Mutex (Part 2)",
+    date: "Mar 02",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/relations/sets-induction-mutex.html",
+    recordingLink: "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Liveness and Lassos",
+    date: "Mar 04",
+    notesLink:
+      "",
+    recordingLink: "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Temporal Forge",
+    date: "Mar 06",
+    notesLink:
+      "",
+    recordingLink: "",
+    liveCodeLink:
+      "",
+    // otherLinks: [
+    //   {
+    //     name: "Integer counter model",
+    //     link: "",
+    //   },
+    // ],
+  },
+  {
+    name: "Modeling Mutex (Part 3, Temporally)",
+    date: "Mar 09",
+    notesLink:
+      "",
+    recordingLink: "",
+    liveCodeLink:
+      "",
+  },
+  {
+    name: "Obligations and the Past",
+    date: "Mar 11",
+    notesLink:
+      "",
+    recordingLink: "",
+    liveCodeLink: "",
+    // otherLinks: [
+    //   {
+    //     name: "Traffic lights model",
+    //     link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
+    //   },
+    // ],
+  },
   // {
   //   name: "Modeling Temporal Logic, Data Structures",
-  //   date: "Mar 12",
+  //   date: "Mar 13",
   //   notesLink: "",
   //   recordingLink: "",
   //   liveCodeLink: "",
