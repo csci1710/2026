@@ -35,7 +35,7 @@ export const announcementInfo = {
   message: "We'd love to hear what you think, submit anonymous feedback!",
   buttonText: "Give Feedback",
   buttonLink:
-    "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfkjqjfdvUz6j93XTj-fDSI1LdxsEImchzzuX78ufv9L6F7NQ/viewform",
   // Set & Forget tools:
   autoReleaseDate: "Feb 21, 2026 09:45:00 EST", // Automatically shows announcement on this date/time EST
   autoDismissDate: "May 14, 2026 09:00:00 EST", // Automatically removes announcement on this date/time EST
