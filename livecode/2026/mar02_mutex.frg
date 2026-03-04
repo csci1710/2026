@@ -106,10 +106,28 @@ pred delta[pre: State, post: State] {
 
 pred mutualExclusion[s: State] {
     #{t: Thread | s.loc[t] = InCS} <= 1
+    // Enriched for verification -- "prove" something stronger!
+    all t: Thread | {
+        s.loc[t] = InCS implies t in s.flags
+        s.loc[t] = Waiting implies t in s.flags
+    }
 }
 
-mutexInitiation:  assert all s: State | init[s] is sufficient for mutualExclusion[s]
+mutexInitiation:  assert all s: State | 
+    init[s] 
+    is sufficient for mutualExclusion[s]
 mutexConsecution: assert all pre,post: State | {
     mutualExclusion[pre] and delta[pre, post]} 
     is sufficient for mutualExclusion[post]
-// Oh, no!
+// Oh, no!  <--- enriched the invariant!
+
+
+
+
+
+
+
+// * Refining the invariant
+// * Draw the picture (Loc1, Loc2, Flag1, Flag2)
+// * Prospective fix
+// * Non-starvation (liveness)
