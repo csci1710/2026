@@ -243,7 +243,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/relations/sets-induction-mutex.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex.frg",
     otherLinks: [
       {name: "Starter Model", link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex_starter.frg"},
       {name: "Starter Tests", link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mutex.test.frg"}
@@ -254,10 +254,16 @@ export const lectures: Lecture[] = [
     name: "Liveness and Lassos",
     date: "Mar 04",
     notesLink:
-      "",
+      "https://forge-fm.github.io/book/2026/chapters/temporal/liveness_and_lassos.html",
     recordingLink: "",
     liveCodeLink:
       "",
+    otherLinks: [
+      {name: "Notes part 2", 
+       link: "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators.html"},
+      {name: "Reminder: BST supplement with testing examples", 
+       link: "https://forge-fm.github.io/book/2026/chapters/bst/bst.html"}, 
+    ]
   },
   {
     name: "Temporal Forge",

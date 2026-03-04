@@ -20,7 +20,8 @@ firstLeave: assert {some pre: State, t: Thread, post: State | init[pre] and leav
 // We expect all the transitions to be mutually exclusive. No, we actually expect 
 // something stronger: we never see 2 transitions _enabled_ at the same time. This
 // is easier to test if we split out the guard of each transition, which we have done now.
-disjEnterLeave: assert {some pre: State, t: Thread | enterEnabled[pre, t] and leaveEnabled[pre, t]} is unsat
+disjEnterLeave: assert {some pre: State, t: Thread | 
+  enterEnabled[pre, t] and leaveEnabled[pre, t]} is unsat
 disjLeaveRaise: assert {some pre: State, t: Thread | leaveEnabled[pre, t] and raiseEnabled[pre, t]} is unsat
 disjEnterRaise: assert {some pre: State, t: Thread | enterEnabled[pre, t] and raiseEnabled[pre, t]} is unsat
 
