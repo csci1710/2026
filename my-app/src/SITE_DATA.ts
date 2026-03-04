@@ -259,6 +259,8 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "",
     otherLinks: [
+      {name: "Exercise", 
+       link: "https://docs.google.com/forms/d/e/1FAIpQLSd8-x69XYR08TywrCVsdTLNYxwPZPKoujFPO0xa_f7zG0uDTw/viewform?usp=publish-editor"},
       {name: "Notes part 2", 
        link: "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators.html"},
       {name: "Reminder: BST supplement with testing examples", 
