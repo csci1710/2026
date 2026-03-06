@@ -257,7 +257,7 @@ export const lectures: Lecture[] = [
       "https://forge-fm.github.io/book/2026/chapters/temporal/liveness_and_lassos.html",
     recordingLink: "",
     liveCodeLink:
-      "",
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar04_counter.frg",
     otherLinks: [
       {name: "Exercise", 
        link: "https://docs.google.com/forms/d/e/1FAIpQLSd8-x69XYR08TywrCVsdTLNYxwPZPKoujFPO0xa_f7zG0uDTw/viewform?usp=publish-editor"},
@@ -271,16 +271,16 @@ export const lectures: Lecture[] = [
     name: "Temporal Forge",
     date: "Mar 06",
     notesLink:
-      "",
+      "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators.html",
     recordingLink: "",
     liveCodeLink:
-      "",
-    // otherLinks: [
-    //   {
-    //     name: "Integer counter model",
-    //     link: "",
-    //   },
-    // ],
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar06_mutex.frg",
+    otherLinks: [
+      {
+        name: "More Notes",
+        link: "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators_2.html",
+      },
+    ],
   },
   {
     name: "Modeling Mutex (Part 3, Temporally)",
