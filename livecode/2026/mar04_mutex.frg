@@ -1,6 +1,10 @@
 #lang forge 
 
-// Book first
+// Book ex.
+// Counter ex.
+// Lassos picture
+// Revise mutex
+
 
 /*
   while(true) {
