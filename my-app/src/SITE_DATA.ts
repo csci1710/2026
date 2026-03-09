@@ -282,28 +282,29 @@ export const lectures: Lecture[] = [
       },
     ],
   },
-  {
-    name: "Modeling Mutex (Part 3, Temporally)",
-    date: "Mar 09",
-    notesLink:
-      "",
-    recordingLink: "",
-    liveCodeLink:
-      "",
-  },
+  // {
+  //   name: "Modeling Mutex (Part 3, Temporally)",
+  //   date: "Mar 09",
+  //   notesLink:
+  //     "",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "",
+  // },
   {
     name: "Obligations and the Past",
-    date: "Mar 11",
+    date: "Mar 09",
     notesLink:
-      "",
+      "https://forge-fm.github.io/book/2026/chapters/temporal/obligations_past.html",
     recordingLink: "",
     liveCodeLink: "",
-    // otherLinks: [
-    //   {
-    //     name: "Traffic lights model",
-    //     link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
-    //   },
-    // ],
+    otherLinks: [
+      {
+        name: "Traffic lights model",
+        link: "https://forge-fm.github.io/book/2026/chapters/temporal/traffic.frg",
+      },
+      {name: "Tutor Exercise (do 4+)",link:"http://ltl-tutor.xyz/login?user_type=course-student&course_id=CSCI+1710+S26"}
+    ],
   },
   // {
   //   name: "Modeling Temporal Logic, Data Structures",
