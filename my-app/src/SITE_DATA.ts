@@ -309,7 +309,7 @@ export const lectures: Lecture[] = [
 
   {
     name: "LTL Exercise, Solving SAT (1)",
-    date: "Mar 13",
+    date: "Mar 11",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html",
     recordingLink: "",
     liveCodeLink: "",
