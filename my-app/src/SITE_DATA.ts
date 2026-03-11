@@ -125,16 +125,18 @@ export const lectures: Lecture[] = [
     name: "Contrasting Models and Q&A",
     date: "Feb 02",
     notesLink: "https://forge-fm.github.io/book/2026/chapters/qna/static.html",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb02_ttt.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb02_ttt.frg",
   },
-  
-  
+
   {
     name: "Finding Bad States (Part 1)",
     date: "Feb 04",
-    notesLink: "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb04_ttt.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb04_ttt.frg",
   },
 
   {
@@ -143,12 +145,14 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb06_binsearch.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb06_binsearch.frg",
     otherLinks: [
       {
         name: "Starter",
         link: "https://forge-fm.github.io/book/2026/chapters/inductive/binarysearch_template.frg",
-      }]
+      },
+    ],
   },
   {
     name: "Finding Bad States (Part 3)",
@@ -156,16 +160,19 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb09_binsearch.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb09_binsearch.frg",
     //otherLinks: []
   },
 
-  { 
+  {
     name: "Finding Traces",
     date: "Feb 11",
-    notesLink: "https://forge-fm.github.io/book/2026/chapters/ttt/ttt_games.html",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/ttt/ttt_games.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb11_ttt.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb11_ttt.frg",
     otherLinks: [
       {
         name: "Exercise",
@@ -178,7 +185,7 @@ export const lectures: Lecture[] = [
     ],
   },
 
-  // 
+  //
 
   {
     name: "Validation and Q&A",
@@ -186,18 +193,28 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/validation/validating_events.html",
     recordingLink: "",
-   // liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb13_ttt.frg",
-    otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLSd8BA9DUBAGaUVyZziGItQks_fHOZbPIV8Q8yH6L2tQa1p2uA/viewform?usp=publish-editor"}]
+    // liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb13_ttt.frg",
+    otherLinks: [
+      {
+        name: "Exercise",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSd8BA9DUBAGaUVyZziGItQks_fHOZbPIV8Q8yH6L2tQa1p2uA/viewform?usp=publish-editor",
+      },
+    ],
   },
   {
     name: "Modeling syntax, semantics, and sets: Relational Forge",
     date: "Feb 18",
     notesLink:
-       "https://forge-fm.github.io/book/2026/chapters/relations/modeling-booleans-1.html",
+      "https://forge-fm.github.io/book/2026/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.py",
-    otherLinks: [{name: "Exercise", link: "https://docs.google.com/forms/d/e/1FAIpQLScJEC7lcPAMPD7AIXDWX21v6OK3gALXstCxFD0JOGbr4H5_qw/viewform?usp=publish-editor"}],
+    otherLinks: [
+      {
+        name: "Exercise",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScJEC7lcPAMPD7AIXDWX21v6OK3gALXstCxFD0JOGbr4H5_qw/viewform?usp=publish-editor",
+      },
+    ],
   },
   {
     name: "Modeling syntax, semantics, and sets: Relational Forge",
@@ -221,13 +238,18 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/relations/reachability.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.frg",
     otherLinks: [
-      {name: "Exercise", 
-       link: "https://docs.google.com/forms/d/e/1FAIpQLSddiMR0jxTQ-ZZ7Ri8nEvTjMygRYH40e1jA5WjVVBiHJvVA2Q/viewform?usp=publish-editor"},
-      {name: "Visualization", 
-       link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.cnd"},
-    ]
+      {
+        name: "Exercise",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSddiMR0jxTQ-ZZ7Ri8nEvTjMygRYH40e1jA5WjVVBiHJvVA2Q/viewform?usp=publish-editor",
+      },
+      {
+        name: "Visualization",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/boolean.cnd",
+      },
+    ],
   },
   {
     name: "Modeling Mutex (Part 1)",
@@ -235,7 +257,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/relations/sets-induction-mutex.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb27_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/feb27_mutex.frg",
   },
   {
     name: "Modeling Mutex (Part 2)",
@@ -243,12 +266,18 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://forge-fm.github.io/book/2026/chapters/relations/sets-induction-mutex.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex.frg",
     otherLinks: [
-      {name: "Starter Model", link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex_starter.frg"},
-      {name: "Starter Tests", link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mutex.test.frg"}
-
-    ]
+      {
+        name: "Starter Model",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar02_mutex_starter.frg",
+      },
+      {
+        name: "Starter Tests",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mutex.test.frg",
+      },
+    ],
   },
   {
     name: "Liveness and Lassos",
@@ -259,13 +288,19 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/mar04_counter.frg",
     otherLinks: [
-      {name: "Exercise", 
-       link: "https://docs.google.com/forms/d/e/1FAIpQLSd8-x69XYR08TywrCVsdTLNYxwPZPKoujFPO0xa_f7zG0uDTw/viewform?usp=publish-editor"},
-      {name: "Notes part 2", 
-       link: "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators.html"},
-      {name: "Reminder: BST supplement with testing examples", 
-       link: "https://forge-fm.github.io/book/2026/chapters/bst/bst.html"}, 
-    ]
+      {
+        name: "Exercise",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSd8-x69XYR08TywrCVsdTLNYxwPZPKoujFPO0xa_f7zG0uDTw/viewform?usp=publish-editor",
+      },
+      {
+        name: "Notes part 2",
+        link: "https://forge-fm.github.io/book/2026/chapters/temporal/temporal_operators.html",
+      },
+      {
+        name: "Reminder: BST supplement with testing examples",
+        link: "https://forge-fm.github.io/book/2026/chapters/bst/bst.html",
+      },
+    ],
   },
   {
     name: "Temporal Forge",
@@ -303,19 +338,26 @@ export const lectures: Lecture[] = [
         name: "Traffic lights model",
         link: "https://forge-fm.github.io/book/2026/chapters/temporal/traffic.frg",
       },
-      {name: "Tutor Exercise (do 4+)",link:"http://ltl-tutor.xyz/login?user_type=course-student&course_id=CSCI+1710+S26"}
+      {
+        name: "Tutor Exercise (do 4+)",
+        link: "http://ltl-tutor.xyz/login?user_type=course-student&course_id=CSCI+1710+S26",
+      },
     ],
   },
 
   {
     name: "LTL Exercise, Solving SAT (1)",
     date: "Mar 11",
-    notesLink: "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html",
     recordingLink: "",
     liveCodeLink: "",
     otherLinks: [
-      {name: "Exercise", link: "http://ltl-tutor.xyz/exercise/predefined?sourceuri=instructor:5"}
-    ]
+      {
+        name: "Exercise",
+        link: "http://ltl-tutor.xyz/exercise/predefined?sourceuri=instructor:5",
+      },
+    ],
   },
   //{
   //   name: "Deadlocks, Peterson's Lock (Part 1)",
@@ -595,7 +637,7 @@ export const labAssignments: Assignment[] = [
     name: "Sociotech Discussion",
     dateRange: "Mar 11 → Mar 12, 2026",
     href: "",
-    autoReleaseDate: "Mar 11, 2026 15:00:00 EST",
+    autoReleaseDate: "Mar 12, 2026 20:00:00 EST",
   },
   {
     name: "SAT co-lab",
