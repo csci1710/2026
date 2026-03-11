@@ -306,14 +306,18 @@ export const lectures: Lecture[] = [
       {name: "Tutor Exercise (do 4+)",link:"http://ltl-tutor.xyz/login?user_type=course-student&course_id=CSCI+1710+S26"}
     ],
   },
-  // {
-  //   name: "Modeling Temporal Logic, Data Structures",
-  //   date: "Mar 13",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
+
+  {
+    name: "LTL Exercise, Solving SAT (1)",
+    date: "Mar 13",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    otherLinks: [
+      {name: "Exercise", link: "http://ltl-tutor.xyz/exercise/predefined?sourceuri=instructor:5"}
+    ]
+  },
+  //{
   //   name: "Deadlocks, Peterson's Lock (Part 1)",
   //   date: "Mar 14",
   //   notesLink:
