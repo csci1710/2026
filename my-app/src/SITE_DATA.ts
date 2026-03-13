@@ -636,8 +636,8 @@ export const labAssignments: Assignment[] = [
   {
     name: "Sociotech Discussion",
     dateRange: "Mar 11 → Mar 12, 2026",
-    href: "",
-    autoReleaseDate: "Mar 12, 2026 20:00:00 EST",
+    href: "https://hackmd.io/@csci1710/rk66iLUDbl",
+    autoReleaseDate: "Mar 11, 2026 15:00:00 EDT",
   },
   {
     name: "SAT co-lab",
