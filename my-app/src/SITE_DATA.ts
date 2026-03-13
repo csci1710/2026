@@ -346,16 +346,30 @@ export const lectures: Lecture[] = [
   },
 
   {
-    name: "LTL Exercise, Solving SAT (1)",
+    name: "LTL Exercise, How Forge Works",
     date: "Mar 11",
-    notesLink:
-      "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink: "",
     liveCodeLink: "",
     otherLinks: [
+      {name: "Read this week: Solving SAT", link: "https://forge-fm.github.io/book/2026/chapters/solvers/dpll.html"},
+      {name: "Read this week: How Forge Works", link: "https://forge-fm.github.io/book/2026/chapters/solvers/bounds_booleans_how_forge_works.html"},
+      // {name: "Exercise", link: "http://ltl-tutor.xyz/exercise/predefined?sourceuri=instructor:5"}
+    ]
+  },
+
+  {
+    name: "Final Projects and Constraint Propagation",
+    date: "Mar 13",
+    notesLink:
+      "",
+    recordingLink: "",
+    liveCodeLink:
+      "",
+    otherLinks: [
       {
-        name: "Exercise",
-        link: "http://ltl-tutor.xyz/exercise/predefined?sourceuri=instructor:5",
+        name: "In-class Starter",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/jan26_ttt.frg",
       },
     ],
   },
