@@ -359,7 +359,7 @@ export const lectures: Lecture[] = [
   },
 
   {
-    name: "Final Projects and Constraint Propagation",
+    name: "Constraint Propagation",
     date: "Mar 13",
     notesLink:
       "",
@@ -373,6 +373,125 @@ export const lectures: Lecture[] = [
       },
     ],
   },
+
+  {
+    name: "Final Projects, Resolution (Part 1)",
+    date: "Mar 16",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/solvers/resolution.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Resolution (Part 2)",
+    date: "Mar 18",
+    notesLink:
+      "https://forge-fm.github.io/book/2026/chapters/solvers/resolution.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Final Project Advice, Q&A",
+    date: "Mar 20",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "No class (Spring break)",
+    date: "Mar 23",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+{
+    name: "No class (Spring break)",
+    date: "Mar 25",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "No class (Spring break)",
+    date: "Mar 27",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+
+  {
+    name: "TBD",
+    date: "Mar 30",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 01",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 03",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 06",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 08",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 10",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 13",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 15",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 17",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "TBD",
+    date: "Apr 20",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  // {
+  
+
   //{
   //   name: "Deadlocks, Peterson's Lock (Part 1)",
   //   date: "Mar 14",
@@ -494,37 +613,30 @@ export const lectures: Lecture[] = [
   //   liveCodeLink: "",
   // },
 
-  {
-    name: "...remainder of semester...",
-    date: "... ... ...",
-    notesLink: "",
-    recordingLink: "",
-    liveCodeLink: "",
-  },
 
   {
-    name: "Guest Speaker (Details TBA)",
+    name: "Guest Speaker: Saad Ullah (Boston U)",
     date: "Apr 22",
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
-    name: "Guest Speaker or none (Details TBA)",
+    name: "Guest Speaker: Anjali Pal (UW)",
     date: "Apr 24",
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
-    name: "Guest Speaker (Details TBA)",
+    name: "Guest Speakers: James Larisch and Suleman Ahmad (Cloudflare)",
     date: "Apr 27",
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
-    name: "Guest Speaker (Details TBA)",
+    name: "Guest Speaker: Benjamin Simon (Downdog)",
     date: "Apr 29",
     notesLink: "",
     recordingLink: "",
