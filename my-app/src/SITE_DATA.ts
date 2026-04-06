@@ -443,9 +443,9 @@ export const lectures: Lecture[] = [
   {
     name: "Applications to Code (1)",
     date: "Apr 06",
-    notesLink: "",
+    notesLink: "https://forge-fm.github.io/book/2026/chapters/on_code/symbolic-execution.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://forge-fm.github.io/book/2026/chapters/on_code/in-class.py",
   },
   {
     name: "Applications to Code (2)",
