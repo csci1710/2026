@@ -469,11 +469,21 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   {
-    name: "TBD",
+    name: "Little Tricky Logic: Game of Life",
     date: "Apr 15",
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
+    otherLinks: [
+      {
+        name: "In-class Starter",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_inclass.frg",
+      },
+            {
+        name: "In-class Visualization",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_inclass.js",
+      },
+    ],
   },
   {
     name: "TBD",
