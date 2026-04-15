@@ -479,10 +479,14 @@ export const lectures: Lecture[] = [
         name: "In-class Starter",
         link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_inclass.frg",
       },
-            {
+      {
         name: "In-class Visualization",
         link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_inclass.js",
       },
+      {
+        name: "Exercise",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfNpcgByzmHYFukaonm7QxM1XCgfjZBXyiHaGZ4exeh5DlHJQ/viewform?usp=publish-editor",
+      }
     ],
   },
   {
