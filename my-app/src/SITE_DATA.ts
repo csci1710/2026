@@ -486,7 +486,11 @@ export const lectures: Lecture[] = [
       {
         name: "Exercise",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfNpcgByzmHYFukaonm7QxM1XCgfjZBXyiHaGZ4exeh5DlHJQ/viewform?usp=publish-editor",
-      }
+      },
+      {
+        name: "GoL Viewer",
+        link: "https://golly.sourceforge.io/webapp/golly.html"
+      },
     ],
   },
   {
