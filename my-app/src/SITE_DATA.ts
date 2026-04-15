@@ -473,7 +473,7 @@ export const lectures: Lecture[] = [
     date: "Apr 15",
     notesLink: "",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_inclass_end.frg",
     otherLinks: [
       {
         name: "In-class Starter",
@@ -491,6 +491,11 @@ export const lectures: Lecture[] = [
         name: "GoL Viewer",
         link: "https://golly.sourceforge.io/webapp/golly.html"
       },
+      {
+        name: "Relational Frg Version",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/gameOfLife_complete.frg",
+      },
+
     ],
   },
   {
