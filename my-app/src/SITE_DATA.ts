@@ -499,14 +499,33 @@ export const lectures: Lecture[] = [
     ],
   },
   {
-    name: "TBD",
+    name: "Explicit-State vs. Symbolic",
     date: "Apr 17",
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
+    otherLinks: [
+      {
+        name: "Graph Coloring (Forge)",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/spin/graph_color.frg",
+      },
+      {
+        name: "Graph Coloring (Spin)",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/spin/graph_color_open.pml",
+      },
+      {
+        name: "Hygienic Dining Smiths (Spin)",
+        link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/spin/smiths_hygienic.pml",
+      },
+      // {
+      //   name: "Game of Life Oscillators (Spin)",
+      //   link: "https://github.com/csci1710/2026/blob/main/my-app/public/livecode/2026/spin/graph_color_open.pml",
+      // },
+
+    ],
   },
   {
-    name: "TBD",
+    name: "Solving with Data Structures",
     date: "Apr 20",
     notesLink: "",
     recordingLink: "",
